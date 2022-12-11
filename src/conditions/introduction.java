@@ -1,4 +1,6 @@
-public class conditions {
+package conditions;
+
+public class introduction {
     public static void main(String[] args) {
         boolean flag = true;
         int num = 7;
