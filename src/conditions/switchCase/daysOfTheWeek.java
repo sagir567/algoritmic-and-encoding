@@ -1,13 +1,17 @@
 package conditions.switchCase;
 
+import java.util.Scanner;
+
 public class daysOfTheWeek {
 
-    public static void main(String s[])
+    public static void main(String[] args)  {
 
    /* What will be the output of the following program?, explain your answer.
 
     */
-    {
+            Scanner sc = new Scanner(System.in);
+            String s = sc.nextLine();
+
         int day = 4;
 
         switch(day)
